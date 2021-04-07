@@ -1,0 +1,137 @@
+[
+{
+    "model": "polls.poll",
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "text": "A or B",
+        "pub_date": "2021-04-06T21:20:23.083Z",
+        "active": true
+    }
+},
+{
+    "model": "polls.poll",
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "text": "Vanilla or chocolate?",
+        "pub_date": "2021-04-06T21:21:31.738Z",
+        "active": true
+    }
+},
+{
+    "model": "polls.poll",
+    "fields": {
+        "owner": [
+            "admin"
+        ],
+        "text": "Best pizza?",
+        "pub_date": "2021-04-06T21:23:32.446Z",
+        "active": true
+    }
+},
+{
+    "model": "polls.choice",
+    "fields": {
+        "poll": [
+            "A or B"
+        ],
+        "choice_text": "A"
+    }
+},
+{
+    "model": "polls.choice",
+    "fields": {
+        "poll": [
+            "A or B"
+        ],
+        "choice_text": "B"
+    }
+},
+{
+    "model": "polls.choice",
+    "fields": {
+        "poll": [
+            "Vanilla or chocolate?"
+        ],
+        "choice_text": "vanilla"
+    }
+},
+{
+    "model": "polls.choice",
+    "fields": {
+        "poll": [
+            "Vanilla or chocolate?"
+        ],
+        "choice_text": "chocolate"
+    }
+},
+{
+    "model": "polls.choice",
+    "fields": {
+        "poll": [
+            "Best pizza?"
+        ],
+        "choice_text": "pepperoni"
+    }
+},
+{
+    "model": "polls.choice",
+    "fields": {
+        "poll": [
+            "Best pizza?"
+        ],
+        "choice_text": "Hawaiian"
+    }
+},
+{
+    "model": "polls.choice",
+    "fields": {
+        "poll": [
+            "Best pizza?"
+        ],
+        "choice_text": "Chicago"
+    }
+},
+{
+    "model": "polls.choice",
+    "fields": {
+        "poll": [
+            "Best pizza?"
+        ],
+        "choice_text": "New York"
+    }
+},
+{
+    "model": "polls.vote",
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "poll": [
+            "Vanilla or chocolate?"
+        ],
+        "choice": [
+            "Vanilla or chocolate?",
+            "chocolate"
+        ]
+    }
+},
+{
+    "model": "polls.vote",
+    "fields": {
+        "user": [
+            "admin"
+        ],
+        "poll": [
+            "A or B"
+        ],
+        "choice": [
+            "A or B",
+            "A"
+        ]
+    }
+}
+]

@@ -1,0 +1,114 @@
+[
+{
+    "model": "polls.poll",
+    "pk": 1,
+    "fields": {
+        "owner": 1,
+        "text": "A or B",
+        "pub_date": "2021-04-06T21:20:23.083Z",
+        "active": true
+    }
+},
+{
+    "model": "polls.poll",
+    "pk": 2,
+    "fields": {
+        "owner": 1,
+        "text": "Vanilla or chocolate?",
+        "pub_date": "2021-04-06T21:21:31.738Z",
+        "active": true
+    }
+},
+{
+    "model": "polls.poll",
+    "pk": 3,
+    "fields": {
+        "owner": 1,
+        "text": "Best pizza?",
+        "pub_date": "2021-04-06T21:23:32.446Z",
+        "active": true
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+        "poll": 1,
+        "choice_text": "A"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+        "poll": 1,
+        "choice_text": "B"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 3,
+    "fields": {
+        "poll": 2,
+        "choice_text": "vanilla"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 4,
+    "fields": {
+        "poll": 2,
+        "choice_text": "chocolate"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 5,
+    "fields": {
+        "poll": 3,
+        "choice_text": "pepperoni"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 6,
+    "fields": {
+        "poll": 3,
+        "choice_text": "Hawaiian"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 7,
+    "fields": {
+        "poll": 3,
+        "choice_text": "Chicago"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 8,
+    "fields": {
+        "poll": 3,
+        "choice_text": "New York"
+    }
+},
+{
+    "model": "polls.vote",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "poll": 2,
+        "choice": 4
+    }
+},
+{
+    "model": "polls.vote",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "poll": 1,
+        "choice": 1
+    }
+}
+]
