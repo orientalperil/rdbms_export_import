@@ -1,5 +1,3 @@
-https://github.com/orientalperil/rdbms_export_import/blob/master/data_export_import.md
-
 There are 2 data sets one for development and one for production.
 
 The goal is to export data from development and load it into production.
